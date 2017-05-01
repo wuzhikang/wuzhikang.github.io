@@ -15,7 +15,7 @@ body{
 	top:0;
 	left: 0;
 }
-.logo{
+.song img{
 	border-radius:50%;
 	width: 4em;
 	height: 4em;
@@ -23,16 +23,14 @@ body{
 	left: 2em;
 	top:1em;
 	
-	-ms-transition: -ms-transform 2s;
-	-moz-transition: -moz-transform 2s;
-	-webkit-transition: -webkit-transform 2s;
-	transition:transform 2s;
 }
-.logo:hover {
-	-ms-transform:rotate(360deg); 	/* IE 9 */
-	-moz-transform:rotate(360deg); 	/* Firefox */
-	-webkit-transform:rotate(360deg); /* Safari 和 Chrome */
-	transform:rotate(360deg);
+.song img:last-child{
+	border-radius:0;
+	top:1.5em;
+	width: 3em;
+	height: 3em;
+	opacity: .7;
+	display: none;
 }
 .toggle{
 	width:4em;

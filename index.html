@@ -12,7 +12,13 @@
 	</head>
 	<body>
 		<div class="nav">
-				<img class="logo" alt="logo" src="img/K.jpg" >
+				<div class="song" onclick="bf()">
+					<img id="k" src="img/K.jpg" />
+					<img src="img/暂停.png" /></div>
+					<audio src="逃跑计划 - 夜空中最亮的星.mp3" controls="controls"
+						 loop="loop" autoplay="autoplay" preload id="music1" hidden>
+					</audio>
+	
 				<div class="toggle">
 					<input id="t" type="checkbox" onclick='testClickBigCheckBox()'/>
 					<label for="t"></label>
@@ -115,6 +121,7 @@
 	</body>
 	<link rel="stylesheet" href="css.css"> 
 	<script src="js/jquery-2.2.0.js"></script> 
+	<script type="text/javascript" src="js/touch.min.js" ></script>
+	<script type="text/javascript" src="js/jquery.rotate.min.js" ></script>
 	<script src="js.js"></script>
-	<script src="tt.js"></script>
 </html>
